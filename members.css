@@ -162,7 +162,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    width: 150px;
+    width: auto;
 }
 
 .info {
@@ -212,6 +212,7 @@ main {
     display: flex;
     gap: 40px;
     align-items: center;
+    overflow-y: hidden;
 }
 
 .container {
